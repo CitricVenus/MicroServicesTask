@@ -44,7 +44,8 @@ You can add **ADMIN** and **Customer** users, **ADMIN** user can use all the end
    - `/GetOrder/{id}`
    - `/AddOrder`
 
-### 2. Create order:
+### 2. Create order:  
+`
     {
   "orderUserId": 2,
   "orderItems": [
@@ -53,15 +54,16 @@ You can add **ADMIN** and **Customer** users, **ADMIN** user can use all the end
       "quantity": 1
     }
   ]
-}
+}`
 ##Payment:  
 ### 1. To pay a order use `/Payments` to use endpoints:  
    -`/pay`  
    -`/order/{orderId}`  
 
  ### 2. Pay:
+ `
       {
     "orderId" : 1,
     "amount" : 3500.0
     }
-      
+  `    
