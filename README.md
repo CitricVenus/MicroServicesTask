@@ -24,7 +24,7 @@ You can add **ADMIN** and **Customer** users, **ADMIN** user can use all the end
   "password": "admin2"
    }`
 
-##Product:  
+# Product:  
 ### 1. You can manipulate enpoints with the root  `"/products"` ,then , next for the enpoints you can use:
    -  `"/GetProducts"`
    -  `/GetProduct/{productName}`
@@ -38,7 +38,7 @@ You can add **ADMIN** and **Customer** users, **ADMIN** user can use all the end
   "productStock": 100
    }
 
-## Order:
+# Order:
 ### 1. Use the root `/Order` to use order endpoints:
    -`/GetAllOrders`
    - `/GetOrder/{id}`
@@ -55,7 +55,7 @@ You can add **ADMIN** and **Customer** users, **ADMIN** user can use all the end
     }
   ]
 }`
-##Payment:  
+# Payment:  
 ### 1. To pay a order use `/Payments` to use endpoints:  
    -`/pay`  
    -`/order/{orderId}`  
