@@ -12,7 +12,7 @@ To get a valid **Token** to use enpoints, you need to add a **ADMIN** user with 
 You can add **ADMIN** and **Customer** users, **ADMIN** user can use all the endpoints from other microservices.    
   
 # Example to add new user  
-## 1. User `http://localhost:8084/all/register` to register a new user  
+### 1. User `http://localhost:8084/all/register` to register a new user  
 `{
   "username": "admin2",
   "password": "admin2",
