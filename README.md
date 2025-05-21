@@ -22,13 +22,45 @@ You can add **ADMIN** and **Customer** users, **ADMIN** user can use all the end
    `{
   "username": "admin2",
   "password": "admin2"
-
-}`
-
- 
+   }`
 
 Product:  
-
+1. You can manipulate enpoints with the root  `"/products"` ,then , next for the enpoints you can use:
+   -  `"/GetProducts"`
+   -  `/GetProduct/{productName}`
+   -  `/UpdateProduct/{productName}`
+   -  `/DeleteProduct/{productName}`
+  
+ 2. Create a product
+  {
+  "productName": "Mouse inalámbrico",
+  "productPrice": 300,
+  "productStock": 100
+   }
 Order:  
+1. Use the root `/Order` to use order endpoints:
+   -`/GetAllOrders`
+   - `/GetOrder/{id}`
+   - `/AddOrder`
 
+ 2. Create order:
+    {
+  "orderUserId": 2,
+  "orderItems": [
+    {
+      "productName": "Talet Pro",
+      "quantity": 1
+    }
+  ]
+}
 Payment:  
+1. To pay a order use `/Payments` to use endpoints:
+   -`/pay`
+   -`/order/{orderId}`
+
+   2. Pay:
+   3. {
+    "orderId" : 1,
+    "amount" : 3500.0
+    }
+      
