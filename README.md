@@ -1,7 +1,7 @@
-Run Project
+#Run Project
 Use for each project:
-# mvn spring-boot:run
+`mvn spring-boot:run`
 
-First Run the Eureka Proyect
-Second, Run the server proyect inside Principal-server.
-Then Run the others Projects.
+1. First Run the Eureka Proyect
+2. Second, Run the server proyect inside Principal-server.
+3. Then Run the others Projects.
