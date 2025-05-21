@@ -1,6 +1,7 @@
  Run Project  
  Use for each project:  
-`mvn spring-boot:run`
+`mvn spring-boot:run`  
+**iS IMPORTANT THAT YOU CREATE DATABASES WHERE THE TABLES WILL CREATE, YOU CAN SEE IN `application.properties` the name I used in SQL**
 
 1. First Run the Eureka Project
 2. Second, Run the server project inside Principal-server.
