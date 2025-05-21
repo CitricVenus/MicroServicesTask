@@ -54,12 +54,12 @@ Order:
   ]
 }
 Payment:  
-1. To pay a order use `/Payments` to use endpoints:
-   -`/pay`
-   -`/order/{orderId}`
+1. To pay a order use `/Payments` to use endpoints:  
+   -`/pay`  
+   -`/order/{orderId}`  
 
    2. Pay:
-   3. {
+      {
     "orderId" : 1,
     "amount" : 3500.0
     }
